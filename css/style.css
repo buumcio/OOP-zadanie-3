@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+body {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#board {
+	font-family: 'Play';
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+button {
+	font-family: 'Play';
+	border-radius: 5%;
+}
+
+.column {
+	width: 33.33%;
+	height: 500px;
+	overflow-y: auto;
+	float: left;
+	margin: 20px auto 5px;
+	box-sizing: border-box;
+	border: 1px solid green;
+}
+
+
+.column-title {
+	font-size: 35px;
+	color: green;
+	margin: 20px auto;
+}
+
+.column-card-list {
+	margin: 0 auto;
+	min-height: 200px;
+	min-height: 200px;
+}
+
+
+
